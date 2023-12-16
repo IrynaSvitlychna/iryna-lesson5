@@ -33,3 +33,24 @@
 
 
 import './styles/style.css'
+
+// СТВОРИ СПИСОК ЗАМІТОК НА ДЕНЬ:
+// 1)ПОЛУЧИТИ ДОСТУП ДО ЕЛЕМЕНТІВ ФОРМИ, ПРИ НАТИСКАННЯ НА КНОПОЧКУ ADD
+
+const form = document.querySelector("#form)");
+const input = document.querySelector("input");
+
+// 2)НА ОСНОВІ ДАНИХ ЯКІ МИ ВЗЯЛИ З ФОРМИ ВІДМАЛЮВАТИ ЕЛЕМЕНТИ СПИСКУ НА ЕКРАН
+
+// const list = document.querySelector(".list");
+
+
+form.addEventListener("submit", submitHandler);
+
+function submitHandler(e) {
+    e.preventDefault();
+    const item = input.value;
+console.log(item);
+
+
+}
