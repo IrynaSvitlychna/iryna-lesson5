@@ -52,7 +52,6 @@ function submitHandler(e) {
     const item = input.value;
 console.log(item);
 
-
 }
 
 
